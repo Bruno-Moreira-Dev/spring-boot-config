@@ -18,7 +18,7 @@ public class AppController {
         return appMessage;
     }
 
-    @GetMapping("/env")
+    @GetMapping("/environment")
     public String getDbEnvironment() {
         return "The following environment variables are set: " + dbEnvironment;
     }
